@@ -1,0 +1,7 @@
+Compter le nombre d'articles:
+-----------------------------
+	=CONCAT("Nombre d'articles : ";COUNTIF(B2:B200;TRUE))
+
+Afficher la date du jour:
+-------------------------
+	=CONCATENATE("Liste de courses du ";TEXT(TODAY();"aaa dd/mm/yyyy"))
